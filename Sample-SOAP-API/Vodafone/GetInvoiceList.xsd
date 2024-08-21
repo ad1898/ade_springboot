@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:schema xmlns:ns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://vodafone.com/getInvoiceList" 
+xmlns:tns="http://vodafone.com/getInvoiceList" elementFormDefault="qualified">
+
+<ns:element name="GetInvoiceListRequest">
+	<ns:complexType>
+		<ns:sequence>
+			<ns:element name="accountID" type="ns:integer"/>	
+		</ns:sequence>
+	</ns:complexType>
+</ns:element>
+<ns:element name="GetInvoiceListResponse">
+	<ns:complexType>
+		<ns:sequence>
+			<ns:element name="Invoice" type="tns:Invoice"/>		
+		</ns:sequence>
+	</ns:complexType>
+</ns:element>
+	<ns:complexType name="Invoice">
+		<ns:sequence>
+			<ns:element name="accountID" type="ns:integer"/>
+			<ns:element name="amount" type="ns:integer"/>
+			<ns:element name="name" type="ns:string"/>
+			<ns:element name="description" type="ns:string"/>
+			<ns:element name="dueDate" type="ns:date"/>	
+		</ns:sequence>
+	</ns:complexType>
+</ns:schema>

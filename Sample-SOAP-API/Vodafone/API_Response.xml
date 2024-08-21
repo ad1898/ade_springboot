@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<GetInvoiceListResponse xmlns="http://vodafone.com/getInvoiceList"
+	xsi:schemaLocation="http://vodafone.com/getInvoiceList GetInvoiceList.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<Invoice>
+			<accountID>1234</accountID>
+			<amount>1789</amount>
+			<name>Akanksha</name>
+			<description>Pending invoice</description>
+			<dueDate>2024-09-07</dueDate>
+		</Invoice>
+	</GetInvoiceListResponse>                                                                                                                                        

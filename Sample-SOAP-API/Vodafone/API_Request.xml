@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<GetInvoiceListRequest xmlns="http://vodafone.com/getInvoiceList" 
+	xsi:schemaLocation="http://vodafone.com/getInvoiceList GetInvoiceList.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<accountID>1789</accountID>
+	</GetInvoiceListRequest>                                                                                                                                       
